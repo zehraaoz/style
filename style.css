@@ -1,0 +1,115 @@
+
+/* GENERAL */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #F8F5FA;
+    color: #49435C;
+    line-height: 1.6;
+    margin: 0;
+    padding: 25px;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+    color: #625477;
+    font-weight: 650;
+}
+
+/* HEADER */
+header {
+    background: #EDE8F7;
+    border-radius: 18px;
+    padding: 25px;
+}
+
+/* NAVIGATION */
+nav {
+    background: #F8EEF2;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+/* LINKS */
+a {
+    color: #947DB5;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+a:hover {
+    color: #C18FA8;
+    text-decoration: underline;
+}
+
+/* CONTENT AREAS */
+main, section, aside {
+    border-radius: 16px;
+}
+
+/* BUTTONS */
+button, input[type="submit"] {
+    background: #D9CBEA;
+    color: #49435C;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #C8B5DF;
+    transform: translateY(-2px);
+}
+
+/* INPUTS */
+input, textarea, select {
+    border: 1px solid #DDD2E8;
+    border-radius: 10px;
+    padding: 10px 14px;
+    background: #FFFCFF;
+    color: #49435C;
+    font: inherit;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: 2px solid #D9CBEA;
+}
+
+/* TABLES */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th {
+    background: #EDE8F7;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #F0EAF3;
+}
+
+/* FOOTER */
+footer {
+    background: #EDE8F7;
+    color: #625477;
+    border-radius: 14px;
+    padding: 18px;
+}
+
+/* IMAGES */
+img {
+    max-width: 100%;
+    border-radius: 14px;
+}
