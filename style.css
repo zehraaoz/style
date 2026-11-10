@@ -1,4 +1,5 @@
 
 :root {
-    filter: sepia(0.15) hue-rotate(75deg) saturate(0.75);
+    background-color: #e5eddf;
+    filter: sepia(0.08) hue-rotate(65deg) saturate(0.85);
 }
