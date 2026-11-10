@@ -1,3 +1,4 @@
-body {
-    background-color: #dce8d5 !important;
+
+:root {
+    filter: sepia(0.15) hue-rotate(75deg) saturate(0.75);
 }
